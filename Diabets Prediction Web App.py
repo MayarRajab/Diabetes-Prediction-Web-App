@@ -8,7 +8,8 @@ Created on Fri Aug  8 19:25:43 2025
 import numpy as np
 import pickle
 import streamlit as st
-loaded_model = pickle.load(open("C:/Users/click/Documents/ProjectML/Deployement/trained_model.sav", 'rb'))
+loaded_model = pickle.load(open("trained_model.sav", 'rb'))
+
 
 #creating a funcation as prediction
 
@@ -86,4 +87,5 @@ if __name__== '__main__':
     
     
     
+
         
